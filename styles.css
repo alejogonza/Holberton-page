@@ -1,0 +1,129 @@
+@font-face {
+    font-family: justicehalf;
+    src: url(fonts/justicehalf.otf);
+}
+
+
+@font-face {
+    font-family: SpartanMB-Regular;
+    src: url(fonts/SpartanMB-Regular.otf);
+}
+
+body {
+    font-family: justicehalf;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: justicehalf;
+    color: #fc2eafad;
+    position: relative;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: SpartanMB-Regular;
+    font-size: 16px;
+    text-shadow: 0px 12px 12px black;
+    color: #fc2eafad;
+}
+
+.container {
+    padding: absolute;
+    margin: 0px;
+    background-color: #fff;
+    width: calc(100% - 0px);
+    height: calc(200% - 0px);
+    overflow: hidden;
+}
+
+.glitch-img {
+    position: absolute;
+    width: 100%;
+  
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header,
+html {
+
+    border-top: 7px solid #00b3b3;
+    margin-top: 112px;
+    background-color: #102b54d9;
+    opacity: 0.9;
+
+}
+
+html {
+    scroll-beor: smooth;
+
+}
+
+footer p {
+    color: #fc2eafad;
+    font-family: justicehalf;
+    font-size: 28px;
+    text-shadow: 4px 3px 8px black;
+}
+
+
+main,
+html {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: 407px;
+
+
+}
+
+article,
+html {
+    overflow-y: auto;
+    flex: 2;
+    z-index: 2;
+    background-color: #102b54d9;
+    opacity: 0.9;
+    left: 500;
+}
+
+
+aside {
+    overflow-y: auto;
+    flex: 1;
+    background-color: #102b54d9;
+    margin-right: 200px;
+    padding-left: 15px;
+}
+
+
+.h1_index {
+    position: absolute;
+    top: 14px;
+    right: 393px;
+    font-family: justicehalf;
+    color: #fc2eafad;
+    font-size: 5.5em;
+    text-shadow: 4px 3px 8px black;
+}
+
+
+a:link,
+a:visited {
+    font-family: justicehalf;
+    color: #16e6f9d6;
+    text-shadow: 4px 3px 8px black;
+    font-size: 28px;
+    text-decoration: none;
+}
